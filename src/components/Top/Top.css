@@ -1,0 +1,20 @@
+.top-img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.top{
+    margin: 2rem;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 8px solid #c1ff95;
+}
+
+.top h2{
+    font-size: 40px;
+    color: #666666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

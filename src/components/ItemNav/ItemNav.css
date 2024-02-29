@@ -1,0 +1,9 @@
+li{
+    list-style: none;
+}
+
+a{
+    text-shadow: 3px 2px 2px #b3e391;
+    color: #c1ff95;
+    text-decoration: none;
+}

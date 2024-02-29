@@ -1,0 +1,28 @@
+.exp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.exp img{
+    border-radius: 50%;
+    width: 10rem;
+    padding: 0.5rem;
+
+}
+
+progress{
+  width: 100%;
+  height: 1.4rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #c1ff95;
+  border-radius: 10px;
+}
+progress::-webkit-progress-value {
+  background-color: #39a900;
+  border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+
+header {
+    padding: 1rem;
+    background-color: #39a900;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+header img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+header h2{
+    color: aliceblue;
+    display: inline-block;
+    position: relative;
+}
+
+header h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 60%;
+    height: 2px;
+    background-color: #ffffff;
+    transform: translateX(-50%); 
+  }

@@ -1,0 +1,39 @@
+.capsule{
+    background-color: #39a900;
+    width: 27rem;
+    height: 10rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.capsule img{
+    background-color: aliceblue;
+    width: 8rem;
+    height: 6rem;
+    border-radius: 0;
+}
+
+.description{
+    width: 50%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.description a{
+    color: #000;
+    text-shadow: none;
+}
+.description a:hover{
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.5s;
+}
+.links{
+    margin: 0.5rem;
+    font-size: 13px;
+    display: flex;
+}

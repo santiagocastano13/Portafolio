@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul{
+    font-size: 22px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li:hover{
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+li a:hover{
+    color: aliceblue;
+}
+
+

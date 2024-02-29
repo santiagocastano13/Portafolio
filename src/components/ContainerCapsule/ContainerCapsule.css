@@ -1,0 +1,18 @@
+.cap{
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cap h3{
+    font-size: 16px;
+}
+
+.cap p{
+    text-align: initial;
+    font-size: 14px;
+}

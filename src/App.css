@@ -1,0 +1,253 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+  --a: #39a900
+  --b: #c1ff95
+  --c: #29690b
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #69bd48;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #63aa6f;
+}
+
+
+@media(min-width: 1280px){
+  header{
+    width: 25%;
+  }
+  #Logo{
+    width: 12rem;
+    height: 12rem;
+  }
+  nav h2{
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  ul{
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  li{
+    padding: 2px;
+  }
+  header img{
+    width: 8rem;
+    height: 8rem;
+  }
+  .networks{
+    font-size: 22px;
+    width: 80%;
+    margin: 10px 0;
+  }
+  main{
+    padding: 2rem;
+    width: 75%;
+  }
+  .top{
+    margin: 1rem;
+  }
+  .top h2{
+    font-size: 25px;
+  }
+  .top-img{
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+  .desc-profile {
+    font-size: 15px;
+  }
+  .capsule{
+    width: 24rem;
+    font-size: 10px;
+  }
+  .description p, .description a, .carts p{
+    font-size: 12px;
+  }
+  .description h3{
+    margin: 0.5rem 0;
+    font-size: 15px;
+  }
+
+}
+
+@media(max-width:1279px){
+
+  header{
+    width: 30%;
+  }
+  main{
+    width: 70%;
+    padding: 1.5rem;
+  }
+  #Logo{
+    width: 9rem;
+    height: 9rem;
+  }
+  header h2{
+    font-size: 15px;
+    margin: 0.5rem;
+  }
+  ul li{
+    font-size: 15px;
+  }
+  header img{
+    width: 6rem;
+    height: 6rem;
+  }
+  nav{
+    margin: 0.4rem;
+  }
+  .networks{
+    margin: 0.5rem;
+    padding: 0.2rem;
+    width: 80%;
+    font-size: 17px;
+  }
+  .top{
+    margin: 1rem;
+  }
+  .top h2{
+    font-size: 25px;
+  }
+  .top img{
+    width: 3rem;
+    height: 3rem;
+  }
+  section{
+    padding: 1rem;
+    font-size: 14px;
+  }
+  .div-carts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .carts{
+    width: 50%;
+    font-size: 12px;
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  .exp img{
+    width: 7rem;
+  }
+}
+
+@media(max-width:920px){
+  main{
+    padding: 0.7rem;
+  }
+  .top{
+    margin: 0.5rem;
+  }
+}
+
+@media(max-width:768px){
+  main{
+    width: 100%;
+  }
+  header{
+    width: 50%;
+  }
+  .hamburger{
+    position: sticky;
+    width: 100%;
+    background-color: #69bd48;
+  }
+  button{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #63aa6f;
+    border: none;
+    padding: 4px;
+  }
+  .capsule{
+    width: 90%;
+  }
+  .description p{
+    font-size: 12px;
+  }
+  .carts{
+    width: 70%;
+  }
+  .ContainerExp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .exp{
+    margin: 2rem;
+  }
+
+}
+
+@media(max-width:480px){
+  header{
+    width: 70%;
+  }
+  #Logo{
+    width: 7rem;
+    height: 7rem;
+  }
+  header img{
+    width: 5rem;
+    height: 5rem;
+  }
+  .capsule{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+  }
+  .capsule img{
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .description h3{
+    font-size: 14px;
+    margin: 0.3rem;
+  }
+  .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .carts{
+    width: 90%;
+  }
+
+  .exp{
+    margin: 1rem;
+  }
+
+}
