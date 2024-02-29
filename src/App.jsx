@@ -70,7 +70,7 @@ function App() {
           <Networks />
         </Header>
       )}
-
+      <Home/>
     <Whatsapp/>
     <AppRoutes />
     </>
