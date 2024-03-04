@@ -1,11 +1,9 @@
 import { useState, useEffect } from 'react'
-import { useRoutes } from "react-router-dom";
 import { Header } from './components/layouts/Header/Header'
 import { Logo } from './components/Logo/Logo'
 import { Navbar } from './components/Navbar/Navbar'
 import { ItemNav } from "./components/ItemNav/ItemNav";
 
-import { NotFound } from "./components/NotFound/NotFound";
 import { Home } from "./components/pages/Home/Home";
 import Sena from './assets/sena-logo.png';
 import { Networks } from './components/Networks/Networks';
@@ -17,13 +15,7 @@ import { Whatsapp } from './components/Whatsapp/Whatsapp';
 
 
 
-const AppRoutes = () => {
-  let routes = useRoutes ([
-    { path: '/', element: <Home />},
-    { path: '*', element: <NotFound />},
-  ])
-  return routes
-}
+
 
 function App() {
   const [isMobileView, setIsMobileView] = useState(false);
@@ -72,7 +64,6 @@ function App() {
       )}
       <Home/>
     <Whatsapp/>
-    <AppRoutes />
     </>
     
   )
